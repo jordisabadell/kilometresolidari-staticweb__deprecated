@@ -1,0 +1,7 @@
+/.sass-cache
+/data
+/dist
+/node_modules
+/www
+*.log
+API_KEY
