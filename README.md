@@ -56,8 +56,6 @@ Static web page. It built with grunt module bundler. This web was migrated to We
 - Grunt compile `grunt --apikey-gcp-gcs=(GCP Google Custom Search APIKEY) --apikey-gfb-app=(Google Firebase App APIKEY)`
 
 ### Fix audit potential security vulnerability in dependencies.
-References https://itnext.io/fixing-security-vulnerabilities-in-npm-dependencies-in-less-than-3-mins-a53af735261d  
-
 Delete package-lock.json file and node_modules folder.
 ```
 del package-lock.json
@@ -71,3 +69,6 @@ Install dependencies (it will create lock json file again)
 ```
 npm install
 ```
+References
+- https://itnext.io/fixing-security-vulnerabilities-in-npm-dependencies-in-less-than-3-mins-a53af735261d  
+- https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities
